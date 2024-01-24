@@ -1,0 +1,67 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: #4071ed;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .area {
+        border-radius: 15px;
+        background-color: #fff;
+        text-align: center;
+        padding: 2rem;
+      }
+      .icon i {
+        color: #fff;
+        background-color: #4071ed;
+        padding: 2rem;
+        border-radius: 80px;
+      }
+      .area h1 {
+        padding-top: 1.6rem;
+        font-weight: 400;
+      }
+      .inputs {
+        padding-top: 1.2rem;
+      }
+      .inputs input {
+        width: 46px;
+        height: 48px;
+        text-align: center;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0rem 0.3rem;
+      }
+      .inputs input:focus {
+        outline: none;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+      .verification-btn {
+        padding-top: 1.5rem;
+      }
+      .verification-btn button {
+        cursor: pointer;
+        border: none;
+        background-color: #4071ed;
+        color: #fff;
+        padding: 1rem 1.5rem;
+        border-radius: 15px;
+      }
+      .succes {
+        padding-top: 1.5rem;
+      }
+      .succes #text {
+        color: green;
+      }
+      .succes #wrong {
+        color: red;
+      }
